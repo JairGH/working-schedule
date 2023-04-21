@@ -16,7 +16,7 @@ $(document).ready(function () {
   });
 });
 
-// $("#hour-10 .description").val(localStorage.getItem("hour-10"));
+$("#hour-10 .description").val(localStorage.getItem("hour-10"));
 
 $(".time-block").each(function () {
   var now = dayjs().format("HH");
